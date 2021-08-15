@@ -23,5 +23,8 @@ module.exports = {
                 'css-loader'
             ]
         }]
+    },
+    devServer: {
+        historyApiFallback: true
     }
 }
